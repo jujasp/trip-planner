@@ -1,3 +1,8 @@
+@font-face{
+	font-family: "Chlakh";
+	src: url("./Chlakh.ttf");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,6 +21,9 @@ body {
 }
 
 #nav-bar {
+	font-family: "Chlakh";
+	font-size: 145%;
+	letter-spacing: 0.2em;
 	display: flex;
 	height: 7vh;
 	width: 100vw;
@@ -43,9 +51,26 @@ body {
 	justify-content: flex-start space-between;
 }
 
+select {
+	border: none;
+	background-color:  #A1BECF;
+	font-family: "Helvetica";
+	height: 6vh;
+	font-size: 0.9em;
+	-webkit-appearance: none;
+  	-webkit-border-radius: 0px;
+}
 
 .sidepanelChild {
-	background-color: #EFECEA
+	display: flex;
+	flex-direction: column;
+	background-color:#2E3436;
+	justify-content: center;
+}
+
+.sidepanelChild h1{
+	font-family: "Chlakh";
+	color: #A1BECF;
 }
 
 #hotel {
