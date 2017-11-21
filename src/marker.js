@@ -14,7 +14,7 @@ const marker = (activityType, coordinates) => {
   markerDomEl.style.height = '39px';
   markerDomEl.style.backgroundImage = img;
 
-  new mapboxgl.Marker(markerDomEl).setLngLat(coordinates).addTo(map);
+  return new mapboxgl.Marker(markerDomEl).setLngLat(coordinates);
 }
 
 module.exports = marker

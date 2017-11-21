@@ -16,5 +16,5 @@ const map = new mapboxgl.Map({
 // markerDomEl.style.backgroundImage = "url(http://i.imgur.com/WbMOfMl.png)";
 
 // new mapboxgl.Marker(markerDomEl).setLngLat([-74.009, 40.705]).addTo(map); // [-87.6354, 41.8885] for Chicago
-marker('activity', [-74.009, 40.705])
+marker('activity', [-74.009, 40.705]).addTo(map);
 

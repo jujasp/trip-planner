@@ -8,7 +8,45 @@ body {
   background-color: #C1B5AD;
 }
 
+
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+#nav-bar {
+	display: flex;
+	height: 7vh;
+	align-items: center;
+	padding: 0 0 0 5%;
+	background-color: #2E3436;
+	color: #A1BECF;
+}
+
 #map {
-  height: 100vh;
-  width: 100vw;
+  height: 90vh;
+  width: 80vw;
+  padding: 1%;
+}
+
+#sidepanel {
+	display:flex;
+	background-color: none;
+	flex-direction: column;
+	width: 20vw;
+	justify-content: space-around;
+}
+
+
+.sidepanelChild {
+	background-color: #EFECEA 
+}
+
+#itinerary {
+	height: 50vh;
+}
+
+#hotels {
+	height: 50vh;
 }
